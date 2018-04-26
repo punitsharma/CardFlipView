@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="card_flip_view">
+        <attr name="cardFlipOnTouch" format="boolean"/>
+        <attr name="cardFlipDuration" format="integer"/>
+        <attr name="cardFlipType" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+        <attr name="cardFlipEnabled" format="boolean"/>
+        <attr name="animFlipInId" format="reference"/>
+        <attr name="animFlipOutId" format="reference"/>
+    </declare-styleable>
+</resources>
