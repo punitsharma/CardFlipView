@@ -1,0 +1,15 @@
+<com.psharma.cardflipview.CardFlipView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardflipView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardFlipDuration="400"
+    app:cardFlipEnabled="true"
+    app:cardFlipOnTouch="false">
+    <!-- Back Layout Goes Here -->
+    <include layout="@layout/item_flip_back" />
+
+    <!-- Front Layout Goes Here -->
+    <include layout="@layout/item_flip_front" />
+
+</com.psharma.cardflipview.CardFlipView>
