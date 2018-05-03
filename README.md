@@ -2,6 +2,8 @@
 
 CardFlipView with Animation of Flipping from left to right and top to bottom (Vice versa)
 
+![](https://github.com/punitsharma/CardFlipView/blob/develop/gif/video.gif)
+
 You can use this as a library dependecy in your project 
 
 1. You need to create a CardFlipView like below 
